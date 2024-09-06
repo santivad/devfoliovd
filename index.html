@@ -1,0 +1,364 @@
+<!-- HELLO
+-
+DevFolio is a minimal, clean, lightweight and fully responsive template for Devlopers!
+Created by Anil Seervi.
+-
+GitHub repo: https://github.com/AnilSeervi/DevFolio
+README: https://github.com/AnilSeervi/DevFolio/blob/master/README.md
+-
+Have fun creating your portfolio on this template!!! -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+
+    <!-- Title: add your Portfolio websites's title here -->
+    <title>Santi Vadalà | UX/UI Designer/Developer</title>
+
+    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="[username], [name], skill" />
+
+    <!-- Improve your SEO by adding a small descrption of you -->
+    <meta name="description" content="[Your name here] | Developer" />
+
+    <!-- Add a your png Logo to the assets folder and change the href attr accordingly  -->
+    <link rel="icon" type="image/png" href="./assets/devfolio-logo.png" />
+
+    <!-- Add your primary-theme color for the value of content -->
+    <meta name="theme-color" content="#36d1dc" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <!-- Fill content with the URL of this portfolio you'll host -->
+    <meta property="og:url" content="https://devfolio.js.org/" />
+    <!-- Fill content with the title of your portfolio(Recommended to use what you put in <title> tag) -->
+    <meta property="og:title" content="[Your name here] | Developer" />
+    <!-- Give a short description that'll show up when you/someone shares your portfolio on different platform -->
+    <meta property="og:description" content="Made using DevFolio Template" />
+    <!-- Add a thumbnail image in assets folder and fill the content attr with URL to that thumbnail 
+      so that a thumbnail image of your portfolio is shown while shared on other platform -->
+    <meta
+      property="og:image"
+      content="https://devfolio.js.org/assets/devfolio.png"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <!-- Again fill content attr with the URL of this portfolio you'll host -->
+    <meta property="twitter:url" content="https://devfolio.js.org" />
+    <!-- Recommended to use the same text used within <title> element -->
+    <meta property="twitter:title" content="[Your name here] | Developer" />
+    <!-- short description that shows up while your portfolio is shared -->
+    <meta
+      property="twitter:description"
+      content="Made using DevFolio Template"
+    />
+    <!-- Fill content with the URL to the thumbnail image that you'll put in the assets folder -->
+    <meta
+      property="twitter:image"
+      content="https://anilseervi.vercel.app/assets/devfolio.png"
+    />
+
+    <!-- link tags -->
+    <link rel="preload" as="style" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <!-- FontAwesome Icons link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script defer src="./javascript/scrollreveal.min.js"></script>
+    <script
+      defer
+      type="text/javascript"
+      src="./javascript/scrollveal.js"
+    ></script>
+
+    <!-- Remove Google Analytics once you have your portfolio website set-up -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-122228201-4"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag("js", new Date())
+
+      gtag("config", "UA-122228201-4")
+    </script>
+    <!-- End of Google Analytics -->
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <div id="hero">
+      <section class="container">
+        <h1 class="hero-title">
+          Hi, my name is <span class="text-color-main name">Santi Vadalà</span>
+          <br />
+          I'm the UX/UI Designer Developer.
+        </h1>
+        <p class="hero-cta">
+          <a class="cta-btn cta-btn--hero" href="#about">Get in touch</a>
+        </p>
+      </section>
+      <a href="#about" class="scroll-down-link" aria-label="scroll-down">
+        <div class="scroll-down"></div
+      ></a>
+    </div>
+    <!-- /END Hero Section -->
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="row about-wrapper">
+          <div class="about-wrapper__image">
+            <img
+              class="img-fluid"
+              src="https://cdn.discordapp.com/attachments/1134533272441983086/1281591035276824576/IMG_3528.jpg?ex=66dc4629&is=66daf4a9&hm=db9603ff8f73d396f41d933739809133daa347923b87f02e1d26101b45c6cef0&"
+              alt="Profile Image"
+              width="450"
+              height="350"
+            />
+          </div>
+          <div class="about-wrapper__info">
+            <p class="about-wrapper__info-text">
+              Sono un UX/UI designer con una profonda attenzione per la creazione di esperienze digitali intuitive e coinvolgenti. 
+              Utilizzo strumenti come Figma, Adobe XD,Sketch,Photoshop e Illustrator per progettare interfacce che migliorino l'interazione degli utenti con i prodotti digitali.
+              Attualmente, sono alla ricerca di opportunità lavorative presso aziende che condividano la mia visione di un design centrato sull'utente. 
+              
+            </p>
+            <p class="about-wrapper__info-text">
+              Lavorare in team è una parte essenziale del mio approccio, e credo che la collaborazione sia fondamentale per sviluppare soluzioni innovative e funzionali. 
+              Oltre al design, ho competenze in HTML, CSS, JavaScript e Python, 
+              che mi permettono di collaborare efficacemente con i team di sviluppo per assicurare che i progetti siano realizzabili e tecnicamente solidi.
+            </p>
+            <span class="about-wrapper__cta">
+              <a href="#" class="cta-btn cta-btn--resume">View Resume</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!--Projects Section-->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Alcuni dei miei progetti</h2>
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Generatore password</h3>
+              <p class="project-wrapper__text-info">
+                Il progetto consiste nella creazione di un generatore di password sicure che aiuti gli utenti a creare credenziali robuste e difficili da indovinare. 
+                Questo strumento permette agli utenti di configurare vari parametri per la generazione delle password, inclusa la lunghezza della password, e l'inclusione di caratteri speciali, numeri e lettere maiuscole e minuscole.
+                 L'interfaccia utente è progettata per essere semplice e intuitiva, con opzioni facili da selezionare e un'anteprima della password generata in tempo reale.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://66cef941e6d6623345cf82cc--transcendent-cajeta-05b9d9.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Live</a
+                >
+                <a href="#" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="https://cdn.discordapp.com/attachments/1134533272441983086/1281595510007926888/image.png?ex=66dc4a54&is=66daf8d4&hm=2b54d0452dc12a26c50b7106142f87f9e59575eb06b2af83c06305c668978e4c&"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Generatore frasi buon umore</h3>
+              <p class="project-wrapper__text-info">
+                Il Generatore di Frasi Motivazionali è un'applicazione dedicata a fornire agli utenti una dose quotidiana di ispirazione e positività. Questo strumento è progettato per offrire frasi motivazionali e incoraggianti che aiutano a migliorare l'umore e a stimolare una mentalità positiva.
+                L'applicazione presenta una semplice interfaccia utente che consente agli utenti di ottenere una nuova frase motivazionale con un solo clic. Le frasi sono selezionate per il loro impatto positivo e la loro capacità di motivare e incoraggiare gli utenti a superare le sfide quotidiane. 
+                Ogni frase è presentata in un design elegante e visivamente accattivante, con opzioni per personalizzare il tema e lo stile dell'interfaccia.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://harlequin-doroteya-23.tiiny.site/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Live</a
+                >
+                <a href="#" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="https://media.discordapp.net/attachments/1134533272441983086/1281596753120067605/image.png?ex=66dc4b7c&is=66daf9fc&hm=fc881d3da8affc0b020f111f2016b8eb8952e7cdd49e64e324fa98b9c1e2e748&=&format=webp&quality=lossless&width=1100&height=582"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Pokedex</h3>
+              <p class="project-wrapper__text-info">
+                Il Pokedex Interattivo è un'applicazione web che consente agli utenti di esplorare e scoprire informazioni dettagliate sui Pokémon, 
+                proprio come nel famoso universo Pokémon. Questo progetto offre una panoramica completa dei vari Pokémon,
+                 dalle loro caratteristiche di base ai dettagli avanzati come le abilità e le evoluzioni.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://maroon-gay-49.tiiny.site/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Live</a
+                >
+                <a href="#" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="https://cdn.discordapp.com/attachments/1134533272441983086/1281597265479204885/image.png?ex=66dc4bf7&is=66dafa77&hm=75e3cd3d0bfd064c90f9159957e4c4aa942dc6b673c63797648e9e849b7304ec&"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- End Projects Section -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contatti</h2>
+        <div class="contact-wrapper">
+          <p class="contact-wrapper__text"></p>
+          <a href="https://www.instagram.com/vadgrram?igsh=Mjl2enphNGRvcWRq&utm_source=qr" class="cta-btn cta-btn--resume">Call to Action</a>
+        </div>
+      </div>
+    </section>
+    <!-- END Contact Section -->
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <a href="#hero" class="back-to-top" aria-label="go back to top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a
+            href="#!"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="twitter"
+          >
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/vadgrram?igsh=Mjl2enphNGRvcWRq&utm_source=qr"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="instagram"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a
+            href="#!"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="codepen"
+          >
+            <i class="fa-brands fa-codepen"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/santi-v-331062288/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="linkedin"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a
+            href="#!"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="github"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+        <hr />
+        <p class="footer__text">
+          &copy; <span id="year"></span> - Template by
+          <a
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+            >Santi Vadalà</a
+          >. <br />Made with &hearts;
+        </p>
+      </div>
+    </footer>
+    <!-- END Footer Section -->
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear()
+    </script>
+    <script src="./javascript/vanilla-tilt.min.js"></script>
+    <script type="text/javascript" src="./javascript/valtilt.js"></script>
+  </body>
+</html>
